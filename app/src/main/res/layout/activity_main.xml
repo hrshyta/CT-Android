@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:onClick="onClickBtn"
+        android:text="@string/btn" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBtn3"
+        android:text="@string/btn3" />
+
+    <Button
+        android:id="@+id/customer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBtnCustomer"
+        android:text="@string/Customer" />
+
+    <Button
+        android:id="@+id/inbox_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBtnInboxButton"
+        android:text="@string/InboxButton"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/addToCart_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBtnInboxButton"
+        android:text="@string/AddToCart"
+        tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/viewProduct_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBtnInboxButton"
+        android:text="@string/viewProduct"
+        tools:ignore="OnClick" />
+
+</LinearLayout>

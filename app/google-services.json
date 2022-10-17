@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "528141053484",
+    "project_id": "ct-harshitha-android",
+    "storage_bucket": "ct-harshitha-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528141053484:android:99f58ee4af2634be232b89",
+        "android_client_info": {
+          "package_name": "com.example.ct_harshitha_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528141053484-2d1d0ljb2q9nj1rm635umgn7t9gk1s51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUDfWQfEs-1pD7CPE1xJCuO-k757rFbfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528141053484-2d1d0ljb2q9nj1rm635umgn7t9gk1s51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
