@@ -138,14 +138,19 @@ public class MainActivity extends AppCompatActivity implements CTInboxListener{
     {
         //OnUserLogin
         HashMap<String, Object> profileOnuserLogin = new HashMap<String, Object>();
-        profileOnuserLogin.put("Name", "CTTest 1");    // String
+        /*profileOnuserLogin.put("Name", "CTTest 1");    // String
         profileOnuserLogin.put("Identity", 1);      // String or number
         profileOnuserLogin.put("Email", "ct126396@gmail.com"); // Email address of the user
         profileOnuserLogin.put("Phone", "+917338080340");
-        profileOnuserLogin.put("Gender", "F");             // Can be either M or F
+        //profileOnuserLogin.put("Gender", "F");             // Can be either M or F
         //Optional
         profileOnuserLogin.put("MSG-sms", false);          // Disable SMS notifications
-        profileOnuserLogin.put("MSG-whatsapp", false);      // Enable WhatsApp notifications
+        profileOnuserLogin.put("MSG-whatsapp", false);      // Enable WhatsApp notifications*/
+        profileOnuserLogin.put("Identity", 2);      // String or number
+        profileOnuserLogin.put("Email", "tstharsh@gmail.com"); // Email address of the user
+        profileOnuserLogin.put("Phone", "+917338080340");
+        profileOnuserLogin.put("MSG-sms", true);          // Disable SMS notifications
+        profileOnuserLogin.put("MSG-whatsapp", true);
         clevertapDefaultInstance.onUserLogin(profileOnuserLogin);
         clevertapDefaultInstance.pushEvent("User Profile Created");
     }
